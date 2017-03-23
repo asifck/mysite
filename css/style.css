@@ -5,6 +5,7 @@ body,html {
 }
 body {
    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+   position: relative;
 }
 
 a {
@@ -18,8 +19,12 @@ a {
 	font-weight: bold;
 }
 
+.navbar-brand a:focus, .navbar-brand a:hover {
+    color: #dc2430;
+    text-decoration: none;
+}
 
-.navbar a:focus, .navbar a:hover {
+.navbar a:hover {
     color: #dc2430;
     text-decoration: none;
 }
@@ -29,12 +34,19 @@ a {
 	color: #ffffff;
 	font-weight: bold;
 }
-.nav li a.active{
+
+.nav li.active a{
 	color: #dc2430;
 }
-
-.nav > li > a:hover, .nav > li > a:focus {
-	color: #dc2430;
+.nav > li > a:focus {
+	background: none;
+}
+.nav > li > a:hover {
+	border-top: 3px solid #dc2430;
+    background: none;
+}
+.nav > li.active > a:hover, .nav > li.active > a:focus {
+	border-top: none;
     background: none;
 }
 
@@ -44,16 +56,21 @@ a {
 	background: #dc2430;
 }
 
-.navbar-scroll-down a:focus, .navbar-scroll-down a:hover {
+.navbar-scroll-down a:hover {
     color: #ffffff;
 }
 
-.navbar-scroll-down .nav li a.active{
+.navbar-scroll-down .nav li.active a{
 	background-color: #ffffff;
+	color: #dc2430;
 }
 
-.navbar-scroll-down .nav > li > a:hover, .navbar-scroll-down .nav > li > a:focus {
-	background-color: #ffffff;
+.navbar-scroll-down .nav > li > a:hover {
+	border-top: 3px solid #ffffff;
+}
+
+.navbar-scroll-down .nav > li.active > a:hover, .navbar-scroll-down .nav > li.active > a:focus {
+	border-top: none;
 }
 
 
@@ -97,6 +114,9 @@ a {
 }
 .about{
 	background: #f1f1f1;
+}
+.page-block {
+	padding-top:60px;
 }
 .red-head{
 	font-size: 64px;
@@ -389,7 +409,7 @@ footer{
 	    color: #ffffff;
 	}
 
-	.navbar .nav li a.active{
+	.navbar .nav li.active a{
 		background-color: #ffffff;
 	}
 
