@@ -130,9 +130,110 @@ a {
 	margin-left: 35%;
 	margin-top: 10px;
 }
+.cap{
+    float: left;
+    margin-bottom: 80px;
+    margin-right: 30px;
+    color: #dc2430;
+    font-size: 32px;
+}
+.degree h3{
+	font-size: 32px;
+	font-weight: 600;
+}
+.degree h4{
+	font-size: 28px; 
+	font-weight: 600;
+}
+.degree p{
+	font-size: 18px;
+	text-align: justify;
+}
+.red-head {
+	margin-left: 18px;
+}
+.progress-bar{
+	background: #dc2430;
+	width: 80%;
 
-
-
+}
+.progress{
+	width: 100%;
+	height: 30px;
+	background: #bdbcbc;
+	border-radius: 0;
+}
+.progressbar-head h3{
+   font-size: 32px;
+	font-weight: 600;
+}
+.css{
+	width: 70%;
+}
+.bs{
+	width: 60%;
+}
+.js{
+	width: 50%;
+}
+.progressbar-head{
+	margin-top: 35px;
+}
+.button-area{
+	height: 300px;
+	background: url(../images/bg2.jpg);
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+}
+.my-btn{
+	height: 40px;
+	width: 150px;
+	background: #dc2430;
+	border-radius: 0;
+	margin-top: 130px;
+	border: none;
+}
+.button-area span{
+    color: white;
+    font-weight: bold;
+}
+.float-btn{
+	float: right;
+	margin-top: 30px;
+	font-weight: bold;
+	color: white;
+	background: #dc2430;
+	border-radius: 0;
+	border: none;
+}
+.contact-icons-2{
+	line-height: 30px;
+	margin-left: 15px;
+	margin-top: 50px;
+}
+.contact-icons-2 span{
+	margin-left: 15px;
+	font-weight: 600;
+}
+.contact-icons-2 i{
+	color:#dc2430;
+}
+.form-control{
+	border-radius: 0;
+}
+.footer-btn{
+	font-weight: bold;
+	color: white;
+	background: #dc2430;
+	border-radius: 0;
+	border: none;
+	width: 200px;
+}
+footer{
+	background: black;
+	height: 120px;
+}
 @media (max-width: 374px) { 
     .head h1 {
 		margin-top: 70%;
@@ -162,6 +263,43 @@ a {
 	.contact-icons{
 		margin-top: 25px;
 	}
+	.cap{
+		font-size: 22px;
+		margin-right: 10px;
+	}
+	.degree h3{
+	font-size: 22px;
+	}
+	.degree h4{
+		font-size: 18px;
+	}
+	.degree p{
+		font-size: 12px;
+	}
+	.progress-bar{
+	background: #dc2430;
+	width: 80%;
+}
+.progress{
+	width: 100%;
+	height: 10px;
+}
+.progressbar-head h3{
+   font-size: 22px;
+	font-weight: 600;
+}
+.css{
+	width: 70%;
+}
+.bs{
+	width: 60%;
+}
+.js{
+	width: 50%;
+}
+.progressbar-head{
+	margin-top: 35px;
+}
 
 }
 
@@ -188,6 +326,44 @@ a {
 .paragraph{
 		font-size: 14px;
 	}
+	.cap{
+		font-size: 20px;
+		margin-right: 10px;
+		margin-bottom: 100px;
+	}
+	.degree h3{
+	font-size: 24px;
+	}
+	.degree h4{
+		font-size: 20px;
+	}
+	.degree p{
+		font-size: 14px;
+	}
+.progress-bar{
+	background: #dc2430;
+	width: 80%;
+}
+.progress{
+	width: 100%;
+	height: 15px;
+}
+.progressbar-head h3{
+   font-size: 24px;
+	font-weight: 600;
+}
+.css{
+	width: 70%;
+}
+.bs{
+	width: 60%;
+}
+.js{
+	width: 50%;
+}
+.progressbar-head{
+	margin-top: 35px;
+}
 }
 
 @media (min-width: 375px) and (max-width: 767px) { 
@@ -230,7 +406,7 @@ a {
 		margin-right: 2.5%;
 		margin-top: 20%;
 		background:#f1f1f1;
-        opacity:0.5;
+        opacity:0.4;
 	}
 	.pg-section{
     position: absolute;
@@ -248,6 +424,44 @@ a {
     font-weight: 600;
     font-size: 14px;
 	}
+	.button-area{
+	height: 200px;
+	background: url(../images/bg2.jpg);
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+}
+.my-btn {
+    height: 30px;
+    width: 100px;
+    background: #dc2430;
+    border-radius: 0;
+    margin-top: 100px;
+    border: none;
+}
+.float-btn{
+	height: initial;
+	margin-top: 25px;
+}
+.contact-icons-2{
+	margin-top: 100px;
+}
+.footer-btn{
+	width: 100px;
+}
+.footer-si{
+	font-size: 10px;
+}
+.list-inline{
+	margin-top: 40px;
+}
+.list-inline li{
+	display: block;
+}
+.my-btn{
+	margin-top: 20px;
+}
+
 }
 
 @media (min-width: 425px) and (max-width: 767px) { 
@@ -275,6 +489,30 @@ a {
 	.paragraph {
 		font-size: 16px;
 	}
+	.cap{
+		font-size: 22px;
+		margin-right: 10px;
+		margin-bottom: 110px;
+	}
+	.degree h3{
+	font-size: 26px;
+	}
+	.degree h4{
+		font-size: 22px;
+	}
+	.degree p{
+		font-size: 16px;
+	}
+
+.progress{
+	width: 100%;
+	height: 20px;
+}
+.progressbar-head h3{
+   font-size: 26px;
+	font-weight: 600;
+}
+
 
 }
 @media (min-width: 768px) and (max-width: 1023px) { 
@@ -314,6 +552,9 @@ a {
 }
 .paragraph{
 	margin-top: px;
+}
+.head-row{
+	margin-top: 30%;
 }
 
 }
