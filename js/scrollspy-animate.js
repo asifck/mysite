@@ -1,7 +1,10 @@
 $(document).on('click', 'ul.nav a', function (event) {
     "use strict";
     event.preventDefault();
-
+    if($('.navbar-collapse').hasClass('in')) {
+        $('.navbar-toggle').click();
+    }
+    
     $('html, body').animate({
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 1000);
