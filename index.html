@@ -215,9 +215,7 @@
   
 </div><!--end of container-->
 <div class="container-fluid">
-  <div class="row map">
-  <img src="images/map.jpg">
-    
+  <div class="row map" id="map">
   </div>
 </div>
 </section>
@@ -251,5 +249,22 @@
 	  });
 	});
 	</script>
+	<script>
+	      function initMap() {
+	        var myLatlng = {lat: 11.658846, lng: 75.576696};
+	        var map = new google.maps.Map(document.getElementById('map'), {
+	          zoom: 15,
+			  center: myLatlng,
+              scrollwheel: false
+	        });
+	        var marker = new google.maps.Marker({
+	          position: myLatlng,
+	          map: map
+	        });
+	      }
+	    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1Y0lnL1Nm8-lbbmGTGrohkRdPm54pmzA&callback=initMap">
+    </script>
   </body>
 </html>

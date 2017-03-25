@@ -253,8 +253,8 @@ a {
 	border: none;
 	width: 200px;
 }
-.map img{
-	width: 100%;
+.map {
+	height: 400px;
 }
 
 footer{
@@ -491,9 +491,6 @@ h3{
 }
 .my-btn{
 	margin-top: 20px;
-}
-.map img{
-	width: 100%;
 }
 
 }
